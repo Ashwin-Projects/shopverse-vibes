@@ -98,7 +98,6 @@ const Payment = () => {
                   <Input
                     id="upiId"
                     type="text"
-                    placeholder="yourname@upi"
                     value={upiId}
                     onChange={(e) => setUpiId(e.target.value)}
                     className="mt-2"
@@ -153,11 +152,10 @@ const Payment = () => {
                   <div>
                     <Label htmlFor="cvv">CVV</Label>
                     <Input
-                      id="cvv"
-                      type="text"
-                      placeholder="123"
-                      className="mt-2"
-                    />
+                    id="cvv"
+                    type="text"
+                    className="mt-2"
+                  />
                   </div>
                 </div>
                 <div>
@@ -165,7 +163,6 @@ const Payment = () => {
                   <Input
                     id="cardName"
                     type="text"
-                    placeholder="John Doe"
                     className="mt-2"
                   />
                 </div>
